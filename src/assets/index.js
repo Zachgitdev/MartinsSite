@@ -23,7 +23,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import drupal from "./tech/drupal.png";
 import vagrant from "./tech/vagrant.png";
-import php  from "./tech/php.png";
+import php from "./tech/php.png";
 import mysql from "./tech/mysql.png"
 
 import aecom from "./company/Aecom_Logo.jpeg";
@@ -34,6 +34,16 @@ import aenetworks from "./company/AeLogo.png";
 import ceprsite from "./cepr.png";
 import historysite from "./historysite.png";
 import gamejamgame from "./cardback1.jpg";
+
+import galleryPhoto1 from "./galleryCeiling.jpg";
+import galleryPhoto2 from "./galleryDoorFrame.jpg";
+import galleryPhoto3 from "./galleryChairs.jpg";
+import galleryPhoto4 from "./galleryKitchenSink.jpg";
+import galleryPhoto5 from "./galleryMirror.jpg";
+import galleryPhoto6 from "./galleryTV.jpg";
+import galleryPhoto7 from "./galleryTable.jpg";
+import galleryPhoto8 from "./galleryWall.jpg";
+
 
 export {
   logo,
@@ -69,4 +79,12 @@ export {
   historysite,
   gamejamgame,
   profilepic,
+  galleryPhoto1,
+  galleryPhoto2,
+  galleryPhoto3,
+  galleryPhoto4,
+  galleryPhoto5,
+  galleryPhoto6,
+  galleryPhoto7,
+  galleryPhoto8,
 };
