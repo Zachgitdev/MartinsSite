@@ -7,8 +7,7 @@ import { Parallax } from 'react-scroll-parallax';
 
 const Hero = () => {
   return (
-    <Parallax>
-    <section className='relative w-full h-screen mx-auto bg-hero-pattern bg-cover bg-no-repeat bg-[center_-160px]'>
+    <Parallax speed={-20} className='relative w-full h-screen mx-auto bg-hero-pattern bg-cover bg-no-repeat bg-[center_-160px]'>
       <div className={` absolute inset-0
       top-[120px] max-w-7xl mx-auto flex flex-row
       items-start gap-5 text-center`}>
@@ -38,7 +37,6 @@ const Hero = () => {
           </div>
         </a>
       </div>
-    </section>
     </Parallax>
   )
 }
