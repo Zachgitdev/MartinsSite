@@ -34,12 +34,12 @@ import { SectionWrapper } from '../hoc';
 const About = () => {
   return (
     <>
-      <motion.div className='bg-white'>
+      <motion.div className=''>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.div
         variants={fadeIn("", "", 0.1, 1)}
-        className="bg-about-pattern flex flex-wrap gap-20 bg-white"
+        className="bg-about-pattern flex flex-wrap gap-20"
       >
         <p className="mt-4 text-secondary text-[16px] max-w-3xl leading-[30px]">
           I am a front-end web developer with 8 years experience. Professionally I have been using Drupal and programming languages such as PHP, Sass/Less/CSS3 and javascript.
@@ -58,7 +58,7 @@ const About = () => {
       </motion.div>
 
 
-      <div className='mt-20 flex flex-wrap gap-10 xs:mx-auto bg-white'>
+      <div className='mt-20 flex flex-wrap gap-10 xs:mx-auto'>
         {/* {services.map( (service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))} */}
