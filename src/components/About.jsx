@@ -20,10 +20,10 @@ const About = () => {
           I have worked in multiple small teams to provide projects of a high standard.
           I enjoy developing my skillset through a number of solo projects such as websites for friends and family, game jams, hacakthons and other side projects.
         </p>
-        <img
+        {/* <img
           src={'/src/assets/aboutImg.jpg'}
           className="mt-0 w-[200px] h-auto rounded-2xl sm:mx-auto xs:mx-auto"
-        />
+        /> */}
         
       </motion.div>
     </>
