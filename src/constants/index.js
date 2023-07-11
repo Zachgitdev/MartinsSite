@@ -276,53 +276,44 @@ const projects = [
 const photos = [
   {
     src: galleryPhoto1,
-    width: 0,
-    height: 0
+    width: 4000,
+    height: 1800
   },
   {
     src: galleryPhoto2,
-    width: 0,
-    height: 0
+    width: 683,
+    height: 720
   },
   {
     src: galleryPhoto3,
-    width: 0,
-    height: 0
+    width: 576,
+    height: 864
   },
   {
     src: galleryPhoto4,
-    width: 0,
-    height: 0
+    width: 600,
+    height: 312
   },
   {
     src: galleryPhoto5,
-    width: 0,
-    height: 0
+    width: 720,
+    height: 1102
   },
   {
     src: galleryPhoto6,
-    width: 0,
-    height: 0
+    width: 792,
+    height: 961
   },
   {
     src: galleryPhoto7,
-    width: 0,
-    height: 0
+    width: 650,
+    height: 650
   },
   {
     src: galleryPhoto8,
-    width: 0,
-    height: 0
+    width: 960,
+    height: 640
   }
 ];
-
-for (let i = 0; i < photos.length; i++) {
-  const img = new Image();
-  img.onload = function () {
-    photos[i].width = this.width;
-    photos[i].height = this.height;
-  };
-  img.src = photos[i].src;
-}
 
 export { services, technologies, experiences, testimonials, projects, photos };
