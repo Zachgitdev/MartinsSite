@@ -1,13 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { motion } from 'framer-motion';
 import PhotoAlbum from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import { styles } from '../styles';
-import { services } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { photos } from '../constants';
-import { useState } from "react";
 
 // import lightbox plugins
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";

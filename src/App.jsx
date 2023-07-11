@@ -1,22 +1,18 @@
 import { BrowserRouter } from 'react-router-dom';
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
-import { About, Gallery, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works } from './components';
+import { About, Gallery, Contact, Hero, Navbar} from './components';
 const App = () => {
   return (
     <ParallaxProvider>
       <BrowserRouter>
-        <div className='relative bg-primary'>
+        <div className='relative bg-white'>
           <Navbar />
           <Hero />
         </div>
         <About />
         <Gallery />
-        <Experience />
-        <Tech />
-        <Works />
         <div className='relative z-0'>
           <Contact />
-          {/* <StarsCanvas /> */}
         </div>
       </BrowserRouter>
     </ParallaxProvider>
