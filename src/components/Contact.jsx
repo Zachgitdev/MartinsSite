@@ -54,10 +54,14 @@ const Contact = () => {
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
       <motion.div
         variants={slideIn('left', 'tween', 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        className='flex-[0.75] bg-beige p-8'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h2 className={styles.sectionHeadText}>Contact</h2>
+
+        <p className={`${styles.sectionSubText} py-0.5`}>Martin</p>
+        <p className={`${styles.sectionSubText} py-0.5`}>pery2012@gmail.com</p>
+        <p className={`${styles.sectionSubText} py-0.5`}>07563499018</p>
 
         {/* <form
           ref={formRef}

@@ -8,7 +8,7 @@ module.exports = {
         primary: "#E8DED1",
         secondary: "#18212b",
         tertiary: "#151030",
-        heroBg: "rgb(232, 222, 209, 70%)",
+        "beige": "rgb(232, 222, 209, 70%)",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
@@ -21,6 +21,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/heroImg.jpg')",
+        "hero2-pattern": "url('/src/assets/galleryWall.jpg')",
       },
     },
   },

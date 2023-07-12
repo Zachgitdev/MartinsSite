@@ -10,7 +10,7 @@ const Hero = () => {
     <Parallax speed={-20} className='relative w-full h-screen mx-auto bg-hero-pattern bg-cover bg-no-repeat bg-[center_-160px]'>
       <div className={` absolute inset-0
       top-[120px] max-w-7xl mx-auto flex flex-row
-      items-start gap-5 text-center bg-hero-title-bg`}>
+      items-start gap-5 text-center`}>
           <div>
             <h1 className={`${styles.heroHeadText} font-light uppercase`}>
               Martins Construction</h1>

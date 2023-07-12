@@ -11,7 +11,7 @@ const PolishedPlaster = () => {
     return (
         <>
             <motion.div className=''>
-                <h2 className={styles.sectionHeadText}>Polished Plaster</h2>
+                <h2 className={styles.sectionHeadText}>Bathroom</h2>
                 <div className={styles.sectionHeadLine}></div>
             </motion.div>
             <motion.div
@@ -33,7 +33,7 @@ const PolishedPlaster = () => {
                     Elevate your space with the understated allure of polished plaster.
                 </p>
                 {<img
-                    src={'/src/assets/galleryWall.jpg'}
+                    src={'/src/assets/galleryDoorFrame.jpg'}
                     className="mt-0 w-[300px] h-auto sm:mx-auto xs:mx-auto"
                 />
                 }

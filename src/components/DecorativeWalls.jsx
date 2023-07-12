@@ -11,7 +11,7 @@ const DecorativeWalls = () => {
     return (
         <>
             <motion.div className=''>
-                <h2 className={`${styles.sectionHeadText} text-right`}>Decorative Walls</h2>
+                <h2 className={`${styles.sectionHeadText} text-right`}>Kitchen</h2>
                 <div className={`${styles.sectionHeadLine} ml-auto`}></div>
             </motion.div>
             <motion.div
@@ -19,7 +19,7 @@ const DecorativeWalls = () => {
                 className="flex flex-wrap gap-20"
             >
                 {<img
-                    src={'/src/assets/galleryTable.jpg'}
+                    src={'/src/assets/galleryKitchenSink.jpg'}
                     className="mt-0 w-[300px] h-auto sm:mx-auto xs:mx-auto"
                 />
                 }

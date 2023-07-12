@@ -5,15 +5,15 @@ import { Parallax } from 'react-scroll-parallax';
 // import { ComputersCanvas } from './canvas';
 
 
-const Hero = () => {
+const Hero2 = () => {
   return (
-    <Parallax speed={-20} className='relative w-full h-screen mx-auto bg-hero-pattern bg-cover bg-no-repeat bg-[center_-160px]'>
+    <Parallax speed={-20} className=' z-[-10] relative w-full h-[500px] mx-auto bg-hero2-pattern bg-cover bg-no-repeat bg-[center_-160px]'>
       <div className={` absolute inset-0
       top-[120px] max-w-7xl mx-auto flex flex-row
       items-start gap-5 text-center bg-hero-title-bg`}>
           <div>
             <h1 className={`${styles.heroHeadText} font-light uppercase`}>
-              Martins Construction</h1>
+              Plastering</h1>
           </div>
       </div>
 
@@ -39,4 +39,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero2

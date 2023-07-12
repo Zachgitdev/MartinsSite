@@ -43,8 +43,16 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "PolishedPlaster",
+    title: "Polished Plaster",
+  },
+  {
+    id: "DecorativeWalls",
+    title: "Decorative Walls",
+  },
+  {
+    id: "Gallery",
+    title: "Gallery",
   },
   {
     id: "contact",
@@ -273,6 +281,39 @@ const projects = [
   },
 ];
 
+const plastering = [
+  {
+    image: galleryPhoto1,
+    title: 'polished plaster',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean erat ipsum, aliquet a dolor id, elementum cursus tellus.'
+  },
+  {
+    image: galleryPhoto2,
+    title: 'decorative walls',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean erat ipsum, aliquet a dolor id, elementum cursus tellus.'
+  },
+  {
+    image: galleryPhoto3,
+    title: 'Tadelakt',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean erat ipsum, aliquet a dolor id, elementum cursus tellus.'
+  },
+  {
+    image: galleryPhoto4,
+    title: 'Rust Effects',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean erat ipsum, aliquet a dolor id, elementum cursus tellus.'
+  },
+  {
+    image: galleryPhoto5,
+    title: 'Metallic Paint',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean erat ipsum, aliquet a dolor id, elementum cursus tellus.'
+  },
+  {
+    image: galleryPhoto6,
+    title: 'Art Pieces',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean erat ipsum, aliquet a dolor id, elementum cursus tellus.'
+  }
+];
+
 const photos = [
   {
     src: galleryPhoto1,
@@ -316,4 +357,4 @@ const photos = [
   }
 ];
 
-export { services, technologies, experiences, testimonials, projects, photos };
+export { services, technologies, experiences, testimonials, projects, photos, plastering };

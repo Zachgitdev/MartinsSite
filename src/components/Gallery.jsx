@@ -17,11 +17,8 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 const Gallery = () => {
     const [index, setIndex] = useState(-1);
     return (
-        <div className=''>
+        <div>
             <h2 className={styles.sectionHeadText}>Gallery</h2>
-            <p className="mt-4 text-secondary text-[16px] max-w-3xl leading-[30px]">
-                Test here is a test
-            </p>
             <PhotoAlbum layout="rows" photos={photos} onClick={({ index }) => setIndex(index)} />
             <Lightbox
                 slides={photos}
