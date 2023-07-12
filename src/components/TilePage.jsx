@@ -11,7 +11,8 @@ const TilePage = () => {
             {plastering.map((plaster) => (
                 <li>
                     <img src={plaster.image} className='h-[200px] min-w-full' />
-                    <p className={`${styles.sectionSubText} py-5`}>{plaster.title}</p>
+                    <p className={`${styles.sectionSubText}`}>{plaster.title}</p>
+                    <div className={`${styles.sectionHeadLine} mb-5`}></div>
                     <p>{plaster.text}</p>
                 </li>
             ))}

@@ -23,7 +23,7 @@ const DecorativeWalls = () => {
                     className="mt-0 w-[300px] h-auto sm:mx-auto xs:mx-auto"
                 />
                 }
-                <p className="mt-4 text-secondary text-[16px] max-w-3xl leading-[30px]">
+                <p className="mt-4 text-secondary text-[16px] max-w-3xl leading-[30px] text-right">
                     Discover the enchanting beauty of decorative walls 
                     embellished with the elegant touch of polished plaster. 
                     This refined finish, commonly referred to as Venetian 

@@ -13,7 +13,7 @@ const Hero = () => {
       items-start gap-5 text-center`}>
           <div>
             <h1 className={`${styles.heroHeadText} font-light uppercase`}>
-              Martins Construction</h1>
+              Martins <span className='bg-beige text-secondary px-5'>Construction</span></h1>
           </div>
       </div>
 

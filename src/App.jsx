@@ -12,6 +12,7 @@ const App = () => {
         <About />
         <PolishedPlaster />
         <DecorativeWalls />
+        <div id='Plastering'></div>
         <Hero2 />
         <TilePage />
         <Gallery />

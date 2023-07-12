@@ -44,11 +44,15 @@ export const navLinks = [
   },
   {
     id: "PolishedPlaster",
-    title: "Polished Plaster",
+    title: "Bathrooms",
   },
   {
     id: "DecorativeWalls",
-    title: "Decorative Walls",
+    title: "Kitchens",
+  },
+  {
+    id: "Plastering",
+    title: "Plastering",
   },
   {
     id: "Gallery",

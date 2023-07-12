@@ -16,9 +16,8 @@ const About = () => {
         className="flex flex-wrap gap-20"
       >
         <p className="mt-4 text-secondary text-[16px] max-w-3xl leading-[30px]">
-          I am a front-end web developer with 8 years experience. Professionally I have been using Drupal and programming languages such as PHP, Sass/Less/CSS3 and javascript.
-          I have worked in multiple small teams to provide projects of a high standard.
-          I enjoy developing my skillset through a number of solo projects such as websites for friends and family, game jams, hacakthons and other side projects.
+        Welcome to Martins Construction - your trusted partner for top-quality plastering services. With 20 years of experience in the industry, we take pride in delivering exceptional craftsmanship and transforming spaces into stunning works of art.
+        At artins Construction , we understand that every project is unique. Our team of skilled plasterers is dedicated to providing personalized solutions tailored to your specific needs. Whether it's a small repair or a large-scale renovation, we approach each task with unwavering attention to detail and a commitment to excellence.
         </p>
         {/* <img
           src={'/src/assets/aboutImg.jpg'}

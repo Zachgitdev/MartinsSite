@@ -12,7 +12,7 @@ const Hero2 = () => {
       top-[120px] max-w-7xl mx-auto flex flex-row
       items-start gap-5 text-center bg-hero-title-bg`}>
           <div>
-            <h1 className={`${styles.heroHeadText} font-light uppercase`}>
+            <h1 className={`${styles.heroHeadText} font-light uppercase mt-[100px]`}>
               Plastering</h1>
           </div>
       </div>
