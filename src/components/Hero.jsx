@@ -11,10 +11,10 @@ const Hero = () => {
       <div className={` absolute inset-0
       top-[120px] max-w-7xl mx-auto flex flex-row
       items-start gap-5 text-center`}>
-          <div>
-            <h1 className={`${styles.heroHeadText} font-light uppercase`}>
-              Martins <span className='bg-beige text-secondary px-5'>Construction</span></h1>
-          </div>
+        <div>
+          <h1 className={`${styles.heroHeadText} font-light uppercase`}>
+            Martin's <span className='bg-beige text-secondary px-5'>Construction</span></h1>
+        </div>
       </div>
 
       {/* <div className='absolute xs:bottom-10 bottom-32 w-full 
