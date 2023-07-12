@@ -7,7 +7,7 @@ const TilePage = () => {
   return (
     <div>
         {/* <h2 className={styles.sectionHeadText}>Plastering</h2> */}
-        <ul className='flex justify-center grid grid-cols-3 gap-4'>
+        <ul className='flex justify-center grid grid-cols-3 gap-5'>
             {plastering.map((plaster) => (
                 <li>
                     <img src={plaster.image} className='h-[200px] min-w-full' />
