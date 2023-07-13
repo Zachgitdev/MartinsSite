@@ -10,7 +10,7 @@ const TilePage = () => {
       <ul className='flex justify-center grid grid-cols-3 gap-5'>
         {plastering.map((plaster) => (
           <li>
-            <img src={plaster.image} className='h-[200px] min-w-full overflow-hidden object-cover' />
+            <img src={plaster.image} className='h-[200px] min-w-full overflow-hidden object-cover mb-5' />
             <p className={`${styles.sectionSubText}`}>{plaster.title}</p>
             <div className={`${styles.sectionHeadLine} mb-5`}></div>
             <p>{plaster.text}</p>
