@@ -34,7 +34,7 @@ const PolishedPlaster = () => {
                 </p>
                 {<img
                     src={'/src/assets/galleryDoorFrame.jpg'}
-                    className="mt-0 w-[300px] h-auto sm:mx-auto xs:mx-auto"
+                    className="mt-0 w-[300px] overflow-hidden object-cover sm:mx-auto xs:mx-auto"
                 />
                 }
             </motion.div>

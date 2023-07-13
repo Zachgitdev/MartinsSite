@@ -20,7 +20,7 @@ const DecorativeWalls = () => {
             >
                 {<img
                     src={'/src/assets/galleryKitchenSink.jpg'}
-                    className="mt-8 w-[300px] h-auto sm:mx-auto xs:mx-auto"
+                    className="mt-8 w-[300px] overflow-hidden object-cover sm:mx-auto xs:mx-auto"
                 />
                 }
                 <p className="mt-4 text-secondary text-[16px] max-w-3xl leading-[30px] text-right">
