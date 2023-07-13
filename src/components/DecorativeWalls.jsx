@@ -20,26 +20,26 @@ const DecorativeWalls = () => {
             >
                 {<img
                     src={'/src/assets/galleryKitchenSink.jpg'}
-                    className="mt-0 w-[300px] h-auto sm:mx-auto xs:mx-auto"
+                    className="mt-8 w-[300px] h-auto sm:mx-auto xs:mx-auto"
                 />
                 }
                 <p className="mt-4 text-secondary text-[16px] max-w-3xl leading-[30px] text-right">
-                    Discover the enchanting beauty of decorative walls 
-                    embellished with the elegant touch of polished plaster. 
-                    This refined finish, commonly referred to as Venetian 
-                    plaster, brings a smooth and lustrous surface that adds 
+                    Discover the enchanting beauty of decorative walls
+                    embellished with the elegant touch of polished plaster.
+                    This refined finish, commonly referred to as Venetian
+                    plaster, brings a smooth and lustrous surface that adds
                     undeniable charm to any interior. With its vibrant color
                     palette and captivating depth, polished plaster
                     effortlessly enhances the aesthetics of both modern and
                     traditional designs. As a dedicated and skilled plastering
                     expert, I take immense pride in delivering exceptional
-                    craftsmanship, ensuring meticulous attention to detail 
-                    for flawless results that exceed expectations. 
+                    craftsmanship, ensuring meticulous attention to detail
+                    for flawless results that exceed expectations.
                     Experience the transformative power of polished plaster as
-                    your walls become mesmerizing focal points, emanating a 
-                    subtle yet undeniable sense of sophistication throughout 
-                    your space. Immerse yourself in the serene ambiance created 
-                    by the artistry of polished plaster, where timeless elegance 
+                    your walls become mesmerizing focal points, emanating a
+                    subtle yet undeniable sense of sophistication throughout
+                    your space. Immerse yourself in the serene ambiance created
+                    by the artistry of polished plaster, where timeless elegance
                     meets expert craftsmanship.
                 </p>
             </motion.div>

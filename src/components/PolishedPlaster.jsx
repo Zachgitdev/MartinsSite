@@ -19,17 +19,17 @@ const PolishedPlaster = () => {
                 className="flex flex-wrap gap-20"
             >
                 <p className="mt-4 text-secondary text-[16px] max-w-3xl leading-[30px]">
-                    Discover the allure of polished plaster, a sophisticated and timeless 
-                    decorative finish that adds a touch of elegance to any space. Also 
-                    referred to as Venetian plaster, this artisanal technique creates 
-                    a smooth and glossy surface with captivating depth and color. 
-                    Whether you have a contemporary or traditional interior, polished 
-                    plaster effortlessly enhances the aesthetic, bringing a unique and 
-                    refined ambiance to your surroundings. As an expert plasterer with 
-                    a meticulous eye for detail, I take pride in delivering flawless 
-                    results that surpass expectations. Experience the enchantment of 
-                    polished plaster in your home or business, as subtle yet captivating 
-                    beauty transforms ordinary surfaces into extraordinary focal points. 
+                    Discover the allure of polished plaster, a sophisticated and timeless
+                    decorative finish that adds a touch of elegance to any space. Also
+                    referred to as Venetian plaster, this artisanal technique creates
+                    a smooth and glossy surface with captivating depth and color.
+                    Whether you have a contemporary or traditional interior, polished
+                    plaster effortlessly enhances the aesthetic, bringing a unique and
+                    refined ambiance to your surroundings. As an expert plasterer with
+                    a meticulous eye for detail, I take pride in delivering flawless
+                    results that surpass expectations. Experience the enchantment of
+                    polished plaster in your home or business, as subtle yet captivating
+                    beauty transforms ordinary surfaces into extraordinary focal points.
                     Elevate your space with the understated allure of polished plaster.
                 </p>
                 {<img
