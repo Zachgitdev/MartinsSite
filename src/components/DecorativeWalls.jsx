@@ -11,19 +11,14 @@ const DecorativeWalls = () => {
     return (
         <>
             <motion.div className=''>
-                <h2 className={`${styles.sectionHeadText} text-right`}>Kitchen</h2>
-                <div className={`${styles.sectionHeadLine} ml-auto`}></div>
+                <h2 className={`${styles.sectionHeadText} text-left lg:text-right`}>Kitchen</h2>
+                <div className={`${styles.sectionHeadLine} lg:ml-auto`}></div>
             </motion.div>
             <motion.div
                 variants={fadeIn("", "", 0.1, 1)}
-                className="flex flex-wrap gap-20"
+                className="flex flex-wrap gap-20 lg:flex-row-reverse "
             >
-                {<img
-                    src={'/src/assets/galleryKitchenSink.jpg'}
-                    className="mt-8 w-[300px] overflow-hidden object-cover sm:mx-auto xs:mx-auto"
-                />
-                }
-                <p className="mt-4 text-secondary text-[16px] max-w-3xl leading-[30px] text-right">
+                <p className="mt-4 text-secondary text-[16px] max-w-2xl lg:max-w-3xl leading-[30px] text-left lg:text-right">
                     Discover the enchanting beauty of decorative walls
                     embellished with the elegant touch of polished plaster.
                     This refined finish, commonly referred to as Venetian
@@ -42,6 +37,12 @@ const DecorativeWalls = () => {
                     by the artistry of polished plaster, where timeless elegance
                     meets expert craftsmanship.
                 </p>
+                {<img
+                    src={'/src/assets/galleryKitchenSink.jpg'}
+                    className="mt-8 w-[300px] overflow-hidden object-cover sm:mx-auto xs:mx-auto"
+                />
+                }
+                
             </motion.div>
 
             <div className='mt-20 flex flex-wrap gap-10 xs:mx-auto'>
