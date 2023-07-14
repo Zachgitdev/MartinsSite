@@ -7,7 +7,7 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
-const DecorativeWalls = () => {
+const Kitchen = () => {
     return (
         <>
             <motion.div className=''>
@@ -42,7 +42,7 @@ const DecorativeWalls = () => {
                     className="mt-8 w-[300px] overflow-hidden object-cover sm:mx-auto xs:mx-auto"
                 />
                 }
-                
+
             </motion.div>
 
             <div className='mt-20 flex flex-wrap gap-10 xs:mx-auto'>
@@ -51,4 +51,4 @@ const DecorativeWalls = () => {
     )
 }
 
-export default SectionWrapper(DecorativeWalls, 'DecorativeWalls')
+export default SectionWrapper(Kitchen, 'Kitchen')

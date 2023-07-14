@@ -7,7 +7,7 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
-const PolishedPlaster = () => {
+const Bathroom = () => {
     return (
         <>
             <motion.div className=''>
@@ -45,4 +45,4 @@ const PolishedPlaster = () => {
     )
 }
 
-export default SectionWrapper(PolishedPlaster, 'PolishedPlaster')
+export default SectionWrapper(Bathroom, 'Bathroom')

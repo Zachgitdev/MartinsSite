@@ -1,6 +1,6 @@
 import { BrowserRouter } from 'react-router-dom';
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
-import { About, PolishedPlaster, DecorativeWalls, Gallery, Contact, Hero, Hero2, Navbar, TilePage} from './components';
+import { About, Bathroom, Kitchen, Gallery, Contact, Hero, Hero2, Navbar, TilePage } from './components';
 const App = () => {
   return (
     <ParallaxProvider>
@@ -11,9 +11,9 @@ const App = () => {
         </div>
         <About />
         <div className='h-1 bg-beige w-[80%] mx-auto'></div>
-        <PolishedPlaster />
+        <Bathroom />
         <div className='h-1 bg-beige w-[80%] mx-auto'></div>
-        <DecorativeWalls />
+        <Kitchen />
         <div id='Plastering'></div>
         <Hero2 />
         <TilePage />

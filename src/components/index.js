@@ -2,8 +2,8 @@ import Hero from './Hero';
 import Hero2 from './Hero2';
 import Navbar from './Navbar';
 import About from './About';
-import PolishedPlaster from './PolishedPlaster';
-import DecorativeWalls from './DecorativeWalls';
+import Bathroom from './Bathroom';
+import Kitchen from './Kitchen';
 import Gallery from './Gallery';
 import Contact from './Contact';
 import TilePage from './tilePage';
@@ -13,8 +13,8 @@ export {
   Hero2,
   Navbar,
   About,
-  PolishedPlaster,
-  DecorativeWalls,
+  Bathroom,
+  Kitchen,
   Gallery,
   Contact,
   TilePage,
